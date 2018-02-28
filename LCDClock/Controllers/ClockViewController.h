@@ -21,6 +21,7 @@
 // This needs to be strong
 @property (strong, nonatomic) UIColor *clockLettersColor;
 
+// Properties for each digit view, along with the clock dots
 @property (weak, nonatomic) IBOutlet DigitView *hourDigitOne;
 @property (weak, nonatomic) IBOutlet DigitView *hourDigitTwo;
 @property (weak, nonatomic) IBOutlet DigitView *minuteDigitOne;
